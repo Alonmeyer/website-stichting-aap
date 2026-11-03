@@ -11,6 +11,7 @@
      align-items: center;
      background-color: #FDFAF5;
      margin-bottom: 0;
+     justify-content: center;
  }
 
  nav>img {
@@ -131,6 +132,31 @@
      text-decoration: underline;
 
  }
+ .mijlpalen{
+    display: flex;
+    padding-left: 32px;
+    gap: 96px;
+ }
+
+ .mijlpalen h1 {
+     color: #8FC99A;
+     font-size: 28.8px;
+     font-style: normal;
+     font-weight: 600;
+     margin-bottom: 0;
+     letter-spacing: -0.576px;
+     line-height: 28.8px;
+
+ }
+
+ .mijlpalen p {
+     color: rgba(253, 250, 245, 0.45);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12.48px;
+     font-style: normal;
+     font-weight: 400;
+     letter-spacing: 0.624px;
+ }
 
  .hero-image {
      background-image: url("fotoswebsitestichtingaap/fotopoemavoorherostory.jpg");
@@ -184,7 +210,7 @@
      font-size: 12.48px;
      letter-spacing: 1.997px;
      text-transform: uppercase;
-text-align: center;
+     text-align: center;
  }
 
  .midde>h1 {
