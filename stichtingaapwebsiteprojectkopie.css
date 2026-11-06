@@ -13,9 +13,11 @@
      margin-bottom: 0;
      justify-content: center;
  }
-html {
-  scroll-behavior: smooth;
-} 
+
+ html {
+     scroll-behavior: smooth;
+ }
+
  nav>img {
      width: 120px;
      height: 80px;
@@ -134,10 +136,11 @@ html {
      text-decoration: underline;
 
  }
- .mijlpalen{
-    display: flex;
-    padding-left: 32px;
-    gap: 96px;
+
+ .mijlpalen {
+     display: flex;
+     padding-left: 32px;
+     gap: 96px;
  }
 
  .mijlpalen h1 {
@@ -860,7 +863,8 @@ html {
      content: '✉️';
  }
 
- .contact>div:nth-child(2) {
+ .contact>div>:nth-child(2)>form {
+         box-sizing: border-box;
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
@@ -878,6 +882,7 @@ html {
  .contact input {
      display: flex;
      height: 48.4px;
+     width: 400px;
      padding: 12px 16px;
      flex-direction: column;
      justify-content: center;
@@ -890,14 +895,16 @@ html {
  }
 
  .contact textarea {
-
+     display: block;
      border-radius: 8px;
      border: 0.8px solid #C8C0B4;
      background: #FDFAF5;
+     width: 430px;
  }
 
  .contact button {
      margin-top: 2em;
+     width: 435px;
      border-radius: 8px;
      background: #2D6A3F;
      color: #FDFAF5;

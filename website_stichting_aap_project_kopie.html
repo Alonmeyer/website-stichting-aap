@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="stichting aap website project.css">
+    <link rel="stylesheet" href="stichtingaapwebsiteprojectkopie.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -254,13 +254,15 @@
 
         </div>
         <div>
-            <label for="name">Naam</label>
-            <input name="name" placeholder="Jouw volledige naam">
-            <label for="mail">E-mail</label>
-            <input name="mail" placeholder="jouw@email.nl">
-            <label for="help">Bericht</label>
-            <textarea name="help" cols="44" rows="5" placeholder="Hoe kunnen we je helpen?"></textarea>
-            <button>Verstuur bericht</button>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <label for="name">Naam</label>
+                <input name="name" placeholder="Jouw volledige naam">
+                <label for="mail">E-mail</label>
+                <input name="E-mail" placeholder="jouw@email.nl">
+                <label for="help">Bericht</label>
+                <textarea name="help" rows="5" placeholder="Hoe kunnen we je helpen?"></textarea>
+                <button>Verstuur bericht</button>
+            </form>
         </div>
     </div>
 
